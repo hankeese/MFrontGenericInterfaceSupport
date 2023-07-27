@@ -6,7 +6,7 @@ Created on Fri Feb 21 16:35:18 2020
 @author: bleyerj
 """
 from dolfin import *
-import ufl
+import ufl_legacy as ufl
 
 
 def local_project(v, V, dx, u=None):

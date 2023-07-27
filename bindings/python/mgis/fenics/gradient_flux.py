@@ -9,7 +9,7 @@ Laboratoire Navier (ENPC,IFSTTAR,CNRS UMR 8205)
 """
 from dolfin import *
 import numpy as np
-import ufl
+import ufl_legacy as ufl
 from .utils import (
     local_project,
     symmetric_tensor_to_vector,
